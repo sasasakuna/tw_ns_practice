@@ -31,7 +31,6 @@ public class UglyTennisGame implements TennisGame {
     }
     private String haveNotEqualPoint()
     {
-//        String score = null;
         String P1res = null;
         String P2res = null;
 
@@ -44,7 +43,7 @@ public class UglyTennisGame implements TennisGame {
         else if(P1point==3)
             P1res="Forty";
         else
-             return /*score = */otherPoints();
+             return otherPoints();
 
         if (P2point ==0)
             P2res = "Love";
@@ -55,9 +54,9 @@ public class UglyTennisGame implements TennisGame {
         else if(P2point ==3)
             P2res = "Forty";
         else
-            return  /*score = */otherPoints();
+            return  otherPoints();
 
-        return  /*score = */P1res + "-" + P2res;
+        return  P1res + "-" + P2res;
     }
     private String otherPoints()
     {
