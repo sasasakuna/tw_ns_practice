@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fdf8033-24a4-4269-93f7-4e882739febf" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/ns/practice/UglyTennisGame.java" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/ns/practice/UglyTennisGame.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tw_ns_practice.iws" />
@@ -70,7 +71,7 @@
       <file leaf-file-name="UglyTennisGame.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/ns/practice/UglyTennisGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="47" selection-start="2072" selection-end="2072" vertical-scroll-proportion="0.0">
+            <state line="84" column="32" selection-start="2177" selection-end="2177" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -79,7 +80,7 @@
       <file leaf-file-name="TennisTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/ns/practice/TennisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="78" selection-start="2919" selection-end="2919" vertical-scroll-proportion="0.17258883">
+            <state line="85" column="43" selection-start="3145" selection-end="3145" vertical-scroll-proportion="0.45287958">
               <folding />
             </state>
           </provider>
@@ -186,6 +187,13 @@
           <option name="description" value="Assembles a jar archive containing the main classes." />
           <option name="name" value="jar" />
         </GradleTaskDescriptor>
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/ns/practice/UglyTennisGame.java" />
       </list>
     </option>
   </component>
@@ -342,7 +350,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.TennisTest.getAllScores">
+  <component name="RunManager" selected="JUnit.TennisTest.checkAllScores">
     <configuration default="false" name="TennisTest.getAllScores" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="tw_ns_practice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -351,6 +359,50 @@
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.ns.practice.TennisTest" />
       <option name="METHOD_NAME" value="getAllScores" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TennisTest.checkAllScores" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="tw_ns_practice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks.ns.practice" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.ns.practice.TennisTest" />
+      <option name="METHOD_NAME" value="checkAllScores" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TennisTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="tw_ns_practice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks.ns.practice" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.ns.practice.TennisTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -453,12 +505,16 @@
       <patterns />
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TennisTest.getAllScores" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TennisTest.checkAllScores" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TennisTest" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TennisTest.getAllScores" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TennisTest.checkAllScores" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TennisTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TennisTest.getAllScores" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -509,8 +565,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67145133" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32854864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6523126" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3476874" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -585,14 +641,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/ns/practice/UglyTennisGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="47" selection-start="2072" selection-end="2072" vertical-scroll-proportion="0.0">
+        <state line="84" column="32" selection-start="2177" selection-end="2177" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/ns/practice/TennisTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="78" selection-start="2919" selection-end="2919" vertical-scroll-proportion="0.17258883">
+        <state line="85" column="43" selection-start="3145" selection-end="3145" vertical-scroll-proportion="0.45287958">
           <folding />
         </state>
       </provider>
