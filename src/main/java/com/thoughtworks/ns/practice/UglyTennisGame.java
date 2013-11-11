@@ -29,36 +29,30 @@ public class UglyTennisGame implements TennisGame {
             score = "Deuce";
         return score;
     }
+    private String getValueByPoint(int point)
+    {
+        if(point == 0)
+            return  "Love";
+        else if (point == 1)
+            return "Fifteen";
+        else if(point == 2)
+            return "Thirty";
+        else if(point == 3)
+            return "Forty";
+        else
+            return null;
+    }
     private String haveNotEqualPoint()
     {
-        String P1res = null;
-        String P2res = null;
+        String P1res = getValueByPoint(P1point);
+        String P2res = getValueByPoint(P2point);
 
-        if(P1point == 0)
-            P1res = "Love";
-        else if (P1point ==1)
-            P1res = "Fifteen";
-        else if(P1point==2)
-            P1res="Thirty";
-        else if(P1point==3)
-            P1res="Forty";
+        if (P1res != null && P2res != null)
+            return P1res + "-" + P2res;
         else
-             return otherPoints();
-
-        if (P2point ==0)
-            P2res = "Love";
-        else  if(P2point==1)
-            P2res="Fifteen";
-        else if(P2point ==2)
-            P2res="Thirty";
-        else if(P2point ==3)
-            P2res = "Forty";
-        else
-            return  otherPoints();
-
-        return  P1res + "-" + P2res;
+             return  otherValues();
     }
-    private String otherPoints()
+    private String otherValues()
     {
         String score = null;
         if (P1point>P2point && P2point >= 3)
